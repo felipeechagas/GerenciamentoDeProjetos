@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+              http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+              version="2.2">
+    
+    <!-- Configuração de Beans Gerenciados -->
+    <managed-bean>
+        <managed-bean-name>projetoController</managed-bean-name>
+        <managed-bean-class>com.mycompany.gerenciamentodeprojetos.controller.ProjetoController</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>tarefaController</managed-bean-name>
+        <managed-bean-class>com.mycompany.gerenciamentodeprojetos.controller.TarefaController</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <!-- Outras Configurações -->
+    <application>
+        <locale-config>
+            <default-locale>pt_BR</default-locale>
+        </locale-config>
+    </application>
+
+</faces-config>

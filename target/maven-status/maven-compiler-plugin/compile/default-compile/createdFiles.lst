@@ -1,0 +1,10 @@
+com\mycompany\gerenciamentodeprojetos\model\Tarefa$Prioridade.class
+com\mycompany\gerenciamentodeprojetos\model\Projeto.class
+com\mycompany\gerenciamentodeprojetos\util\HibernateUtil.class
+com\mycompany\gerenciamentodeprojetos\controller\TarefaController.class
+com\mycompany\gerenciamentodeprojetos\dao\ProjetoDAO.class
+com\mycompany\gerenciamentodeprojetos\controller\ProjetoController.class
+com\mycompany\gerenciamentodeprojetos\dao\TarefaDAO.class
+com\mycompany\gerenciamentodeprojetos\service\TarefaService.class
+com\mycompany\gerenciamentodeprojetos\model\Tarefa.class
+com\mycompany\gerenciamentodeprojetos\service\ProjetoService.class
